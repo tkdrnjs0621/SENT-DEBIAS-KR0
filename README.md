@@ -1,6 +1,8 @@
 # SENT-DEBIAS-KR0
 Bias Analysis on Korean pre-trained Language Models 
+
 한국어 기반 pre-trained language model에 대한 bias 분석
+
 2021학년도 가을학기 서울대학교 전기정보공학부 졸업프로젝트 
 
 - This is an implementation of SENT-DEBIAS on Korean Language Models.
@@ -11,14 +13,20 @@ Bias Analysis on Korean pre-trained Language Models
 
 ## Data
 모두의 말뭉치 문어 말뭉치 from 국립국어원 (https://corpus.korean.go.kr/) has been used for GBS dataset.
+
 문서요약 텍스트 from aihub(https://aihub.or.kr/aidata/8054) has been used for GKR dataset.
+
 Data files are not included in this repo. You should use your own dataset to execute the demo.
+
 All datas should be .pkl file including a single list of Korean sentences.
 
 ## Usage
 The demo can be demonstrated by executing `DEMO.ipynb`.
+
 The demo is quite self explanatory, so if you are familiar with the original SENT-DEBIAS algorithm, you can easily understand it.
+
 Three BERT models are given, and you can add any other BERT models from huggingface.
+
 If you want to add a model, `VisualizationKeywords.txt` and `WordPairs.txt` should be added in the corresponding folder under `Texts` folder. Note that all keywords should be single token.
 
 
