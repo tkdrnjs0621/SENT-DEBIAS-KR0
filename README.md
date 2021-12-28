@@ -1,20 +1,18 @@
 # SENT-DEBIAS-KR0
-Bias Analysis on Korean pre-trained Language Models 
-
-한국어 기반 pre-trained language model에 대한 bias 분석
+Bias Analysis on Korean pre-trained Language Models (한국어 기반 pre-trained language model에 대한 bias 분석)
 
 2021학년도 가을학기 서울대학교 전기정보공학부 졸업프로젝트 
 
-- This is an implementation of SENT-DEBIAS on Korean Language Models.
-- An implementation of SEAT-TEST (https://github.com/tkdrnjs0621/) is based on this repository
-- This project is developed with huggingface 
-- This is only implemented for BERT models and  gender bias.
+- This is an python implementation of SENT-DEBIAS (https://github.com/pliang279/sent_debias) on Korean Language Models.
+- An implementation of SEAT-TEST on Korean Language Models (https://github.com/tkdrnjs0621/) is based on this repository
+- This project is developed with huggingface.
+- This is only implemented for BERT models for sentence encoders and binary biases (ex. gender bias) for bias.
 - There might be some glitches and specific requirements are not provided.
 
 ## Data
-모두의 말뭉치 문어 말뭉치 from 국립국어원 (https://corpus.korean.go.kr/) has been used for GBS dataset.
+국립국어원 모두의 말뭉치 문어 말뭉치(https://corpus.korean.go.kr/) has been used for GBS dataset.
 
-문서요약 텍스트 from aihub(https://aihub.or.kr/aidata/8054) has been used for GKR dataset.
+문서요약 텍스트 from aihub (https://aihub.or.kr/aidata/8054) has been used for GKR dataset.
 
 Data files are not included in this repo. You should use your own dataset to execute the demo.
 
