@@ -4,7 +4,7 @@ Bias Analysis on Korean pre-trained Language Models (한국어 기반 pre-traine
 2021학년도 가을학기 서울대학교 전기정보공학부 졸업프로젝트 
 
 - This is an python implementation of SENT-DEBIAS (https://github.com/pliang279/sent_debias) on Korean Language Models.
-- An implementation of SEAT-TEST on Korean Language Models (https://github.com/tkdrnjs0621/SEAT-TEST-KR0), which is also part of this project is based on this repository
+- An implementation of SEAT-TEST on Korean Language Models (https://github.com/tkdrnjs0621/SEAT-TEST-KR0), which is also a part of this project, is based on this repository
 - This project is developed with pytorch & huggingface.
 - This is only implemented for BERT models for sentence encoders and binary biases (ex. gender bias) for bias.
 - There might be some glitches and specific requirements are not provided.
